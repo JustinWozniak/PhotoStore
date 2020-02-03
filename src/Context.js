@@ -1,14 +1,15 @@
-import React from "react"
+import React, {useState} from "react"
 
 const Context = React.createContext()
 
 function ContextProvider({children}) {
+    const [allPhotos, setAllPhotos] = useState([])
+        
     return (
-        <Context.Provider> {children} </Context.Provider>
+        <Context.Provider value={{allPhotos}}>
+            {children}
+        </Context.Provider>
     )
 }
 
-export {
-    ContextProvider,
-    Context
-}
+export {ContextProvider, Context}
