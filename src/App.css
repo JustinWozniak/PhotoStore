@@ -1,9 +1,9 @@
 :root {
   --black: #150605;
-  --red: #EA453C;
-  --pink: #F47B6E;
+  --red: rgb(158, 22, 124);
+  --pink: rgb(26, 13, 102);
   --light-blue: #EFFBFE;
-  --blue: #ACE6EC;
+  --blue: rgb(3, 3, 3);
 }
 
 html, body {
@@ -58,7 +58,7 @@ div.order-button > button:disabled {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
 .cart-item img {
@@ -78,7 +78,7 @@ img.image-grid {
 
 .favorite {
   color: var(--red);
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   position: absolute;
   top: 5px;
   left: 5px;
@@ -96,7 +96,7 @@ img.image-grid {
 
 .cart {
   color: var(--blue);
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   position: absolute;
   top: 5px;
   right: 5px;

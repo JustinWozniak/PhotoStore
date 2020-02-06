@@ -1,3 +1,9 @@
+Getting Some Practise with React Hooks and proptypes....
+Simple photo app. You can like a photo, add them to your cart, and view checkout.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
